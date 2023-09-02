@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#container {
+    width: 80vw;
+}
+
+#cadastro{
+    background-color: #EE7070;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:3rem 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+input {
+    padding: 0.4rem 2rem;
+    background: none;
+    border-radius: 5px;
+    text-align: start;
+    border: none;
+    border-bottom:2px solid #F2F2F2;
+    color: #F2F2F2;
+    background-color: hsl(0, 0%, 95% , 0.8);
+    height: 2.5em;
+    margin-bottom: 1rem;
+}
+
+h1{
+    color: #F2F2F2;
+}
+
+a{
+    text-decoration: dotted;
+    color: #EE7070;
+    text-align: center;
+}
+
+#voltar {
+    color: #EE7070;
+    background-color: #F2F2F2;
+    border: 1px solid #EE7070;
+    width: 10vw;
+}

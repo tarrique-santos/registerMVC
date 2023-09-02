@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+    /* background-color: #EE7070; */
+}
+
+#cxCadastro{
+    background-image: url("/img/backgroundCad.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#cxForms{
+    width: 85vw;
+    /*  */
+}
+
+#formsCad{
+    width: 40VW;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #EE7070;
+    padding: 2.5em 0;
+}
+
+.itensInpt{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: #F2F2F2;
+    padding-bottom: 0.5em;
+}
+
+#formsCad > .itensInpt >
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+#cxPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cxDireita,
+#cxEsquerda {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#cxDireita {
+    background-image: url('/img/Hands\ -\ Show.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 28rem;
+    background-color: #F2F2F2;
+}
+
+#cxEsquerda {
+    background-color: #EE7070;
+}
+
+.cxInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+#cadastrar1{
+    display: none;
+}
+
+.cxInput>input {
+    padding: 0.4rem 2rem;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    text-align: start;
+    border: 1px solid #EE7070;
+}
+
+input {
+    text-align: start;
+    color: #e2e2e2;
+}
+
+#cxLogo{
+    border: 2px solid #EE7070;
+}
+
+.cxInput>label {
+    color: #F2F2F2;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+#cxLogin {
+    height: 100%;
+}
+
+#cxLogin>button {
+    background-color: #F2F2F2;
+    color: #EE7070;
+    border: 1px dashed #F2F2F2;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+#cxLogin>button:hover {
+    background-color: #F2F2F2;
+    color: #EE7070;
+    border: 1px dashed #EE7070;
+}
+
+@media (min-width: 768px) {
+  #cxLogin>button {
+    padding: 13px 50px 13px;
+  }
+}
+
+#frases {
+    margin-top: 8vw;
+    color: #EE7070;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#logo {
+    max-width: 45vw;
+    border-radius: 50%;
+}
+
+#btnCad {
+    background-color: #EE7070;
+    color: #F2F2F2;
+    border: 1px dashed #F2F2F2;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+#btnCad:hover {
+    background-color: #F2F2F2;
+    color: #EE7070;
+    border: 1px dashed #EE7070;
+    padding: 1rem 3rem;
+}
+
+#ou{
+    display: none;
+}
+
+hr{
+    width: 33vw;
+}
+
+@media (max-width:850px) {
+    #cxDireita {
+        display: none;
+    }
+
+    #cadastrar1 , #ou{
+        display: flex;
+    }
+
+    body {
+        background-image: url(/img/background.jpg);
+      }
+    #cxEsquerda {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 68vh;
+        width: 85%;
+    }
+}
